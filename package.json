@@ -10,7 +10,7 @@
     "url": "https://github.com/wbkd/react-flow.git"
   },
   "scripts": {
-	"prepare": "npm run build",
+    "prepare": "npm run build",
     "build": "rollup -c --environment NODE_ENV:production && postcss src/*.css --dir dist",
     "start": "rollup -w -c",
     "start:examples": "cd example && npm start",
